@@ -14,7 +14,4 @@
         this.Status = status;
         this.MissionsCompleted = missionsCompleted;
     }
-
-
-
 }

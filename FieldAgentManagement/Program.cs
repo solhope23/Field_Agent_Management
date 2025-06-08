@@ -10,6 +10,10 @@ namespace FieldAgentManagement
     {
         static void Main(string[] args)
         {
+            agent dd = new agent("dd", "bb", "ff", "Active", 2);
+            AgentDAL ss = new AgentDAL("localhost", "rצךחoot", "eagleeyedb");
+            ss.AddAgent(dd);
+
         }
     }
 }
