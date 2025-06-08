@@ -1,10 +1,10 @@
 ﻿public class agent
 {
-    private string CodeName { get; set; }
-    private string RealName { get; set; }
-    private string Location { get; set; }
-    private string Status { get; set; }
-    private int MissionsCompleted { get; set; }
+    public string CodeName { get; private set; }
+    public string RealName { get; private set; }
+    public string Location { get; private set; }
+    public string Status { get; private set; }
+    public int MissionsCompleted { get; private set; }
 
     public agent(string codeName, string realName, string location, string status, int missionsCompleted)
     {
